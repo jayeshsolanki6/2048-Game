@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #FAF8EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    font-size: 40px;
+    text-align: center;
+    color: #776E65;
+    padding: 20px 0;
+
+}
+.score{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEE4DA;
+    gap: 10px;
+}
+.score .curr-score, .high-score{
+    width: 195px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #BBADA0;
+    color: white;
+}
+.score h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #776E65;
+    line-height: 1;
+}
+.score span{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 10px auto;
+    background-color: #BBADA0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px;
+    border-radius: 10px;
+}
+.game-over{
+    position: fixed;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    
+}
+.game-over .try-again{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    color: #FAF8EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #8F7A66;
+    cursor: pointer;
+}
+
+.tile{
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    margin: 4px;
+    color: #776E65;
+    background-color: #CDC1B4;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-game{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    color: #FAF8EF;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #8F7A66;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.x2{
+    background-color: #EEE4DA;
+    color: #776e65;
+}
+.x4{
+    background-color: #EDE0C8;
+    color: #776e65;
+}
+.x8{
+    background-color: #F2B179;
+    color: #F9F6F2;
+}
+.x16{
+    background-color: #F59563;
+    color: #F9F6F2;
+}
+.x32{
+    background-color: #F67C5F;
+    color: #F9F6F2;
+}
+.x64{
+    background-color: #F65E3B;
+    color: #F9F6F2;
+}
+.x128{
+    background-color: #edcf72;
+    color: #F9F6F2;
+}
+.x256{
+    background-color: #edcc61;
+    color: #F9F6F2;
+}
+.x512{
+    background-color: #edc850;
+    color: #F9F6F2;
+}
+.x1024{
+    background-color: #edc53f;
+    color: #F9F6F2;
+}
+.x2048{
+    background-color: #edc22e;
+    color: #F9F6F2;
+}
+.x4096{
+    background-color: #3f47d2;
+    color: #F9F6F2;
+}
+.x8192{
+    background-color: #F65E3B;
+    color: #F9F6F2;
+}
+.x16384{
+    background-color: #3f47d2;
+    color: #F9F6F2;
+}
+.x32768{
+    background-color: #F65E3B;
+    color: #F9F6F2;
+}
